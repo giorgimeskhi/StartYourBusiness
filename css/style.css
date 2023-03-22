@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_img{
+    position: absolute;
+    width: 44%;
+    height: 100%;
+}
+.title{
+    position: absolute;
+    left: 51.14%;
+    right: 8.21%;
+    top: 13.62%;
+    bottom: 79.29%;
+    margin-left: 140px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    
+    letter-spacing: -0.4px;
+    color: #1E0E62;
+}
+.text{
+        
+    position: absolute;
+    left: 51.14%;
+    right: 8.21%;
+    top: 24.93%;
+    bottom: 61.99%;
+    margin-left: 140px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+
+    color: rgba(21, 20, 57, 0.4);
+    width: 530px;
+    mix-blend-mode: normal;
+}
+hr{
+    position: absolute;
+    left: 51.14%;
+    right: 22%;
+    top: 45.37%;
+    bottom: 54.36%;
+    margin-left: 140px;
+
+    background: #EBEAED;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    border: 1px solid #141414;
+}
+
+
+.parent-div{
+    position: absolute;
+    display: flex;
+    height: 26px;
+    left: 51.21%;
+    right: 38.43%;
+    top: calc(50% - 26px/2 + 94px);
+    margin-left: 140px;
+    width: 40%;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: rgba(21, 20, 57, 0.4);
+
+    mix-blend-mode: normal;
+}
+.child-div{
+    display: inline-block;
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: rgba(21, 20, 57, 0.4);
+
+    mix-blend-mode: normal;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.title_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #1E0E62;
+}
